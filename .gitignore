@@ -1,0 +1,56 @@
+# 環境設定檔
+.env
+
+# Python相關
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 資料庫檔案
+*.db
+*.sqlite3
+db/*.db
+
+# IDE相關
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系統檔案
+.DS_Store
+Thumbs.db
+
+# 日誌檔案
+*.log
+logs/
+
+# 暫存檔案
+temp/
+tmp/
+
+# 圖表輸出
+*.png
+*.jpg
+*.jpeg
+*.pdf
+charts/
